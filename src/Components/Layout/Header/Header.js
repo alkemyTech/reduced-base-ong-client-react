@@ -3,8 +3,6 @@ import { useState,useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
 import logo from '../../../Assets/Logo/logo.png'
-import LoginIcon from '@mui/icons-material/Login';
-import LogoutIcon from '@mui/icons-material/Logout';
 import NavLinksList from './NavLinksList';
 import { navLinks, manageLinkActivation } from './HeaderLinks';
 
